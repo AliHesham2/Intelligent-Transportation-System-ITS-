@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Transportation System",
+    "slug": "Transportation-System",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "android": {
+      "package": "transportation.system",
+      "icon": "./assets/appicon.png",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBEA31tD3pv-F9ST9rd_Tt3wGiOjzT1HmE"
+        }
+      }
+    },
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
